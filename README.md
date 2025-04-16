@@ -1,4 +1,4 @@
-# universal-css-boilerplate
+# universal-css-boilerplate The new CSS Reset
 A clean, optimized, and universally compatible CSS boilerplate for all projects.
 Provides a highly flexible, scalable, and accessibility-friendly CSS foundation, designed to be a perfect starting point for any web project. With mobile responsiveness, modern CSS techniques, and broad browser compatibility, it ensures a seamless experience across all devices.
 
