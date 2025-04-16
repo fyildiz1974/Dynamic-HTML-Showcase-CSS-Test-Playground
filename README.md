@@ -1,12 +1,45 @@
-# universal-css-boilerplate The new CSS Reset
-A clean, optimized, and universally compatible CSS boilerplate for all projects.
-Provides a highly flexible, scalable, and accessibility-friendly CSS foundation, designed to be a perfect starting point for any web project. With mobile responsiveness, modern CSS techniques, and broad browser compatibility, it ensures a seamless experience across all devices.
+# 🌐 Universal CSS Boilerplate
 
-🚀 Features:
-✅ Global Reset & Consistency – Establishes a uniform styling baseline across all elements. ✅ Dark & Light Mode Support – Adapts to user preferences with prefers-color-scheme. ✅ Optimized for Performance – Minimalistic approach with clean, structured rules. ✅ Mobile-Friendly & Scalable – Responsive typography and adaptable UI components. ✅ Accessibility Enhancements – Focus indicators, semantic elements, and reduced motion support. ✅ Print-Ready CSS – Predefined rules for structured and clear document printing.
+A clean, minimal, and fully responsive **CSS boilerplate** designed to kickstart any web project with ease. Created by [Fatih YILDIZ](https://fthyldz.com), this boilerplate prioritizes accessibility, performance, responsiveness, and modern design standards.
 
-🛠 How to Use
-Simply include the CSS file in your project and customize the variables to fit your needs. This boilerplate is designed to be extensible, allowing developers to build upon a solid foundation.
+---
 
-💡 Contributing
-We welcome contributions to make this project even better! Submit pull requests, report issues, or discuss improvements in the community section.
+## 📦 Features
+
+- 🎨 **CSS Variables:** Centralized control of font sizes, color themes, and layout options.
+- 🌗 **Dark/Light Mode Support:** Automatic theming with `prefers-color-scheme`.
+- 🦽 **Accessibility-First:** Includes support for screen readers, focus outlines, reduced motion preferences, and semantic roles.
+- 🖨️ **Print-Optimized:** Clean styles and layout specifically for printed documents.
+- 📱 **Responsive Typography:** Dynamic font scaling for various screen sizes.
+- 🧼 **CSS Reset:** Consistent rendering across all browsers.
+- 🖼️ **Media Handling:** Scales and aligns images, SVGs, and other media.
+- 🎯 **High Performance:** Minimalist ruleset with optimized rendering behaviors.
+
+---
+
+## 🧠 Philosophy
+
+This boilerplate is built with the idea that **less is more**, focusing on:
+- Clean base styles that don't get in your way.
+- Smart defaults that suit most use cases.
+- Easy customization and extension via CSS variables and utility-first thinking.
+
+---
+
+## 📁 File Overview
+
+- `:root` — Custom properties for easy theme and style control.
+- `html, body` — Global layout, scroll behavior, font rendering.
+- `*, *::before, *::after` — Reset and inheritance cleanup.
+- `a, button, input, textarea, select` — Accessible and usable forms & links.
+- `@media` — Responsive and accessibility-related media queries.
+- `@media print` — Optimized for physical and PDF printing.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone or Download
+
+```bash
+git clone https://github.com/fyildiz1974/The-New-reset.css-Universal-CSS-Boilerplate.git
