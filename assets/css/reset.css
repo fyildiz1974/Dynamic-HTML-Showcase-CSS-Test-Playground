@@ -1,5 +1,5 @@
 /*
- * Universal CSS Boilerplate
+ * Universal CSS Reset Boilerplate
  * Created by: Fatih YILDIZ
  * Website: fthyldz.com
  * Version: 1.0.0
@@ -82,12 +82,14 @@ body {
 }
 
 /* 
-   Link styles:
-   - Removes default underline.
-   - Adds padding for better clickability.
-   - Enables smooth transitions.
+   Universal link styling:
+   - The `:any-link` pseudo-class applies styles to all types of links (`<a>`, `<area>`).
+   - This ensures consistency without needing separate styles for `:link`, `:visited`, etc.
+   - Removes default underlines for a cleaner design.
+   - Sets display to `inline-block`, allowing better control over spacing and alignment.
+   - Adds padding to enhance clickable area and improve usability.
 */
-a {
+a, :any-link {
     text-decoration: none;
     display: inline-block;
     padding: .2em .1em;
@@ -117,21 +119,6 @@ a:focus,
 button:focus,
 input:focus {
     outline: 2px solid currentColor;
-}
-
-/* 
-   Universal link styling:
-   - The `:any-link` pseudo-class applies styles to all types of links (`<a>`, `<area>`).
-   - This ensures consistency without needing separate styles for `:link`, `:visited`, etc.
-   - Removes default underlines for a cleaner design.
-   - Sets display to `inline-block`, allowing better control over spacing and alignment.
-   - Adds padding to enhance clickable area and improve usability.
-*/
-:any-link {
-    text-decoration: none;
-    display: inline-block;
-    padding: 0.2em 0.3em;
-    margin: 0.2em 0.1em;
 }
 
 /* 
@@ -205,9 +192,8 @@ svg {
 hr {
     display: block;
     height: 1px;
-    border: none;
-    border-top: 2px solid var(--theme-dark-color);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--theme-light-border);
+    background-color: var(--theme-light-border);
     margin: 1em 0;
 }
 
