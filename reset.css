@@ -15,7 +15,7 @@
 :root {
     --font-base: 16px;
     --font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    
+
     /* RGB color definitions for consistency */
     --rgb-Red: rgb(255, 0, 0);
     --rgb-Green: rgb(0, 255, 0);
@@ -177,6 +177,7 @@ select {
 */
 img,
 picture,
+audio,
 video,
 canvas,
 svg {
@@ -334,12 +335,20 @@ code {
    - Ensures readability in printed documents.
 */
 @media print {
-    * {
+
+    *,
+    *::before,
+    *::after {
         background-image: none !important;
-        background: #fff;
-        color: #000;
-        box-shadow: none;
-        text-shadow: none;
+        background: #fff !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
     }
 
     a[href]::after {
@@ -347,8 +356,31 @@ code {
         font-size: 80%;
     }
 
+    abbr[title]::after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+    * Don't show links that are fragment identifiers,
+    * or use the `javascript:` pseudo protocol
+   */
+    a[href^="#"]::after,
+    a[href^="javascript:"]::after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+
     blockquote,
     pre {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    tr,
+    img {
         page-break-inside: avoid;
     }
 
@@ -397,6 +429,23 @@ code {
     h1 {
         -webkit-page-break-before: always;
         page-break-before: always;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
     }
 
     table,
@@ -453,6 +502,13 @@ code {
     }
 }
 
+/*
+ * Hide from screen readers
+ */
+[hidden] {
+    display: none !important;
+}
+
 /* 
    Screen reader friendly hidden elements:
    - Hides content visually while keeping it accessible.
@@ -466,4 +522,5 @@ code {
     white-space: nowrap;
     border: 0;
     padding: 0;
+    margin: -1px;
 }
