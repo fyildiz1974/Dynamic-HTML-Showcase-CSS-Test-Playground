@@ -1,0 +1,33 @@
+.day-night-switch {
+    background-color: black;
+    color: white;
+}
+
+.day-night-switch-button {
+    float: right;
+    vertical-align: top;
+}
+
+#left-nav {
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: .7em 0;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+#left-nav a {    
+    line-height: 2;    
+}
+
+#left-nav a:hover {
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 245);   
+}
+
+footer {
+    margin-bottom: 50px;
+}
