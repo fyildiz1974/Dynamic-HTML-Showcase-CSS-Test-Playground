@@ -1,20 +1,58 @@
 {
     "name": "Fatih YILDIZ",
     "short_name": "Fatih YILDIZ",
+    "description": "HTML, CSS, JavaScript üzerine içerikler sunan kişisel web uygulaması.",
+    "lang": "tr",
+    "dir": "ltr",
+    "id": "/?manifest",
+    "start_url": "/?utm_source=web_app_manifest",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#334574",
+    "background_color": "#609067",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png",
-            "sizes": "192x192",
+            "purpose": "maskable",
+            "sizes": "48x48",
+            "src": "maskable_icon_x48.png",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-384x384.png",
+            "purpose": "maskable",
+            "sizes": "72x72",
+            "src": "maskable_icon_x72.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "maskable",
+            "sizes": "96x96",
+            "src": "maskable_icon_x96.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "maskable",
+            "sizes": "128x128",
+            "src": "maskable_icon_x128.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "maskable",
+            "sizes": "192x192",
+            "src": "maskable_icon_x192.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "maskable",
             "sizes": "384x384",
+            "src": "maskable_icon_x384.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "maskable",
+            "sizes": "512x512",
+            "src": "maskable_icon_x512.png",
             "type": "image/png"
         }
-    ],
-    "theme_color": "#334574",
-    "background_color": "#609067",
-    "start_url": "https://www.fthyldz.com",
-    "display": "standalone"
+    ]
 }

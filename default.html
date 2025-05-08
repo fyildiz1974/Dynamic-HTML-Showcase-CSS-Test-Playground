@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="fthyldz.com website, example, HTML, CSS, HTML Demo, Html5, Html elements, Htmtl tags, JavaScript.">
+    <meta name="keywords" content="fthyldz.com website, example, HTML, CSS, HTML Demo, Html5, Html elements, Htmtl tags, JavaScript.">
+    <meta name="author" content="Fatih YILDIZ - fthyldz.com">
+    <title>HTML5 Starter Template</title>
+    <meta name="robots" content="index, follow">
+    <meta name="rating" content="safe for kids">
+    <meta property="og:url" content="https://www.fthyldz.com">
+    <meta property="og:title" content="fthyldz.com HTML5 Starter Template">
+    <meta property="og:description" content="website, example, HTML, CSS, JavaScript">
+    <meta property="og:image" content="logo.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@fyildiz1974">
+    <meta name="twitter:title" content="@fyildiz1974">
+    <meta name="twitter:description" content="fthyldz.com website, example, HTML, CSS, HTML Demo, Html5, Html elements, Htmtl tags, JavaScript.">
+    <meta name="twitter:image" content="logo.png">
+    <link rel="preload" href="assets/js/script.js" as="script">
+    <script src="assets/js/script.js" defer></script>
+    <!--<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">-->
+    <link id="style" rel="stylesheet" href="assets/css/style.css">
+    <!--<link rel="stylesheet" href="assets/css/print.css" media="print">-->
+    <!--<base href="https://www.fthyldz.com/">-->
+    <link rel="canonical" href="https://www.fthyldz.com/html/index.html">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="favicon-512x512">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#4c74ad">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <meta name="theme-color" content="#334574">
+    <meta name="color-scheme" content="dark light">
+    <!--<meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; img-src 'self' https://*; child-src 'none';">-->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "WebSite",
+                "name": "fthyldz.com",
+                "url": "https://www.fthyldz.com",
+                "description": "Fatih YILDIZ tarafından oluşturulan, HTML, CSS ve JavaScript ile ilgili örnek ve içerikler barındıran kişisel web sitesi.",
+                "datePublished": "2020-05-01",
+                "dateModified": "2025-05-05",
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "fthyldz.com",
+                  "url": "https://www.fthyldz.com",
+                  "sameAs": [
+                    "https://twitter.com/fyildiz1974",
+                    "https://www.linkedin.com/company/fthyldz",
+                    "https://github.com/fyildiz1974"
+                  ],
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.fthyldz.com/images/logo.png"
+                  }
+                },
+                "potentialAction": {
+                  "@type": "SearchAction",
+                  "target": "https://www.fthyldz.com/search?q={search_term_string}",
+                  "query-input": "required name=search_term_string"
+                },
+                "author": {
+                  "@type": "Person",
+                  "name": "Fatih YILDIZ",
+                  "url": "https://www.fthyldz.com",
+                  "sameAs": [
+                    "https://twitter.com/fyildiz1974",
+                    "https://www.linkedin.com/in/fyildiz1974",
+                    "https://github.com/fyildiz1974"
+                  ]
+                },
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": "https://www.fthyldz.com"
+                }
+              },
+              {
+                "@type": "CreativeWork",
+                "name": "fthyldz.com",
+                "url": "https://www.fthyldz.com",
+                "author": {
+                  "@type": "Person",
+                  "name": "Fatih YILDIZ",
+                  "url": "https://www.fthyldz.com"
+                },
+                "keywords": [
+                  "HTML", "CSS", "JavaScript", "Web Development", "Fatih YILDIZ"
+                ]
+              }
+            ]
+          }
+        </script>
+</head>
+
+<body id="top">
+    <h1>HTML5 Test Page</h1>
+    <hr><br>
+    <fieldset>
+        <legend>Fieldset:</legend>
+        <button type="button" id="reset-default">Reset to default</button> <button type="button" id="css-reset">CSS
+            Reset</button><br><br>
+        <label for="css-selector">Choose a CSS:</label>
+        <select name="css-selector" id="css-selector">
+            <option value="" selected hidden>Select CSS</option>
+            <optgroup label="Options">
+                <option value="assets/css/style.css">No CSS</option>
+                <option value="assets/css/reset.css">Reset CSS</option>
+            </optgroup>
+            <optgroup label="Classless CSS">
+                <option value="https://alvaromontoro.github.io/almond.css/dist/almond.min.css">Almond.CSS</option>
+                <option value="https://raj457036.github.io/attriCSS/themes/brightlight-green.css">AttriCSS</option>
+            </optgroup>
+            <optgroup label="Other CSS">
+                <option value="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">Bootstrap
+                </option>
+                <option value="https://unpkg.com/tailwindcss@1.9.6/dist/tailwind.min.css">Tailwind</option>
+            </optgroup>
+        </select><br><br>
+        <label for="css-url">CSS from link:</label>
+        <input type="url" id="css-url" name="css-url" autocomplete="url"
+            placeholder="Specify an url for the CSS file"><button type="button"
+            id="css-url-button">Apply</button><br><br>
+        <label for="css-uploader">Upload a CSS file:</label>
+        <input type="file" id="css-uploader" name="css-uploader" accept=".css"><button type="button"
+            id="css-uploader-button" name="css-uploader-button">Apply</button><br><br>
+        <textarea id="customCSSInput" placeholder="Write CSS codes here"></textarea><br>
+        <button onclick="applyCustomCSS()">Apply</button><br><br>
+        <button type="button" id="clear-cache">Clear Cache</button>
+    </fieldset>
+    <hr>
+    <h2 id="a-tag">&lt;a&gt; tag hyperlink</h2>
+    <p>This is a <a ping="https://www.fthyldz.com" href="https://www.fthyldz.com" target="_blank" hreflang="tr"
+            referrerpolicy="origin">Hyperlink</a></p>
+    <hr>
+    <h2>&lt;a&gt; tag image link</h2>
+    <p><a href="#a-tag"><img alt="Linux" title="Linux" src="assets/images/linux.svg" width="100" height="100"
+                loading="lazy"></a>
+    </p>
+    <hr>
+    <h2>&lt;a&gt; tag downloadable image link</h2>
+    <p><a href="assets/images/linux.png" download><img src="assets/images/linux.png" alt="Linux" title="Linux"
+                width="100" height="100" loading="lazy"></a></p>
+    <hr>
+    <h2>&lt;a&gt; tag e-mail link</h2>
+    <p>This is an e-mail link: <a href="mailto:someone@example.com">Send Email</a></p>
+    <hr>
+    <h2>&lt;a&gt; tag phone link</h2>
+    <p>This is a phone <a href="tel:+4733378901">number</a> link: <a href="tel:+4733378901">+47 333
+            78 901</a></p>
+    <hr>
+    <h2>&lt;a&gt; tag anchor link</h2>
+    <p>This is a anchor link: Go to <a href="#top">TOP</a> of the page</p>
+    <hr>
+    <h2>&lt;a&gt; tag JavaScript link</h2>
+    <p>This is a javascript Link: <a href="javascript:alert('Hello World!');">Execute
+            JavaScript</a></p>
+    <hr>
+    <h2 id="abbr-tag">&lt;abbr&gt; tag</h2>
+    <p>A Specification (<abbr title="Specification">spec</abbr>) is a document
+        that
+        outlines in detail how a technology or API is intended to function and how it
+        is accessed.
+    </p>
+    <hr>
+    <h2 id="address-tag">&lt;address&gt; tag</h2>
+    <address>
+        Written by <a href="mailto:webmaster@example.com">Fatih YILDIZ</a>.<br>
+        Visit us at: <a href="fthyldz.com" target="_blank">fthyldz.com</a><br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+    <hr>
+    <h2 id="area-tag">&lt;area&gt; and &lt;area&gt; tag</h2>
+    <img src="assets/images/linux.svg" alt="Linux" title="Linux" usemap="#workmap" width="300" height="400"
+        loading="lazy">
+    <map name="workmap">
+        <area shape="rect" coords="140,5,260,150" alt="Head" title="Head" href="#area-tag">
+        <area shape="rect" coords="270,172,333,300" alt="LeftHand" title="LeftHand" href="#area-tag">
+        <area shape="circle" coords="60,300,120" alt="RightFoot" title="RightFoot" href="#area-tag">
+    </map>
+    <hr>
+    <h2 id="article-tag">&lt;article&gt; tag</h2>
+    <article>
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the
+            world's most popular web browser today!</p>
+    </article>
+
+    <article>
+        <h2>Mozilla Firefox</h2>
+        <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the
+            second most popular web browser since January, 2018.</p>
+    </article>
+
+    <article>
+        <h2>Microsoft Edge</h2>
+        <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge
+            replaced Internet Explorer.</p>
+    </article>
+    <hr>
+    <h2 id="aside-tag">&lt;aside&gt; tag</h2>
+    <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was
+        amazing! I had a great summer together with my family!</p>
+    <aside>
+        <h4>Epcot Center</h4>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+            international pavilions, award-winning fireworks and seasonal special events.</p>
+    </aside>
+    <hr>
+    <h2 id="audio-tag">&lt;audio&gt; tag</h2>
+    <audio controls preload="none">
+        <source src="assets/audios/audio.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+        <a href="assets/audios/audio.mp3" download="audio.mp3">Download MP3 audio</a>.
+    </audio>
+    <hr>
+    <h2 id="b-tag">&lt;b&gt; tag</h2>
+    <p>This is normal text - <b>and this is bold text</b>.</p>
+    <hr>
+    <h2 id="bdi-tag">&lt;bdi&gt; tag</h2>
+    <p>In the example below, usernames are shown along with the number of points in a contest. If
+        the bdi
+        element is not supported in the browser, the username of the Arabic user would confuse the
+        text (the
+        bidirectional algorithm would put the colon and the number "90" next to the word "User"
+        rather than
+        next to the word "points").</p>
+    <ul>
+        <li>User <bdi>hrefs</bdi>: 60 points</li>
+        <li>User <bdi>jdoe</bdi>: 80 points</li>
+        <li>User <bdi>إيان</bdi>: 90 points</li>
+    </ul>
+    <hr>
+    <h2 id="bdo-tag">&lt;bdo&gt; tag</h2>
+    <p>This paragraph will go left-to-right.</p>
+    <p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p>
+    <hr>
+    <h2 id="blockquote-tag">&lt;blockquote&gt; tag</h2>
+    <p>Here is a quote from WWF's website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature. The world's leading conservation
+        organization,
+        WWF works in 100 countries and is supported by 1.2 million members in the United States and
+        close to 5
+        million globally.
+    </blockquote>
+    <hr>
+    <h2 id="br-tag">&lt;br&gt; tag</h2>
+    <p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+    <p>Be not afraid of greatness.<br>
+        Some are born great,<br>
+        some achieve greatness,<br>
+        and others have greatness thrust upon them.</p>
+    <p><em>-William Shakespeare</em></p>
+    <hr>
+    <h2 id="button-tag">&lt;button&gt; tag</h2>
+    <button type="button" name="myButton" onclick="alert('Hello world!')">Click Me!</button><button type="button"
+        name="myDisabledButton" disabled>This is
+        a Disabled Button</button>
+    <hr>
+    <h2 id="canvas-tag">&lt;canvas&gt; tag</h2>
+    <canvas id="myCanvas" width="300" height="169" style="border:1px dashed grey">
+        Your browser does not support the canvas tag.
+    </canvas>
+    <hr>
+    <h2 id="caption-tag">&lt;caption&gt; tag</h2>
+    <table>
+        <caption>Monthly savings</caption>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+    </table>
+    <hr>
+    <h2 id="cite-tag">&lt;cite&gt; tag</h2>
+    <img src="assets/images/linux.svg" width="150" height="150" alt="Linux" title="Linux" loading="lazy">
+    <p><cite>Tux is a penguin character</cite> painted by Larry Ewing in 1996.</p>
+    <hr>
+    <h2 id="code-tag">&lt;code&gt; tag</h2>
+    <p>The HTML <code>button</code> tag defines a clickable button.</p>
+    <p>The CSS <code>background-color</code> property defines the background color of an element.
+    </p>
+    <hr>
+    <h2 id="col-tag">&lt;col&gt; tag</h2>
+    <table>
+        <colgroup>
+            <col span="1" style="background-color:violet">
+            <col style="background-color:yellowgreen">
+            <col style="background-color:aqua">
+        </colgroup>
+        <tr>
+            <th>ISBN</th>
+            <th>Title</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>3476896</td>
+            <td>My first HTML</td>
+            <td>$53</td>
+        </tr>
+        <tr>
+            <td>5869207</td>
+            <td>My first CSS</td>
+            <td>$49</td>
+        </tr>
+    </table>
+    <hr>
+    <h2 id="colgroup-tag">&lt;colgroup&gt; tag</h2>
+    <table>
+        <colgroup>
+            <col span="2" style="background-color:violet">
+            <col style="background-color:yellowgreen">
+            <col style="background-color:aqua">
+        </colgroup>
+        <tr>
+            <th>ISBN</th>
+            <th>Title</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>3476896</td>
+            <td>My first HTML</td>
+            <td>$53</td>
+        </tr>
+        <tr>
+            <td>5869207</td>
+            <td>My first CSS</td>
+            <td>$49</td>
+        </tr>
+    </table>
+    <hr>
+    <h2 id="data-tag">&lt;data&gt; tag</h2>
+    <p>The following example displays product names but also associates each name with a product
+        number:</p>
+    <ul>
+        <li><data value="21053">Cherry Tomato</data></li>
+        <li><data value="21054">Beef Tomato</data></li>
+        <li><data value="21055">Snack Tomato</data></li>
+    </ul>
+    <hr>
+    <h2 id="datalist-tag">&lt;datalist&gt; tag</h2>
+    <label for="browser">Choose your browser from the list:</label>
+    <input list="browsers" name="browser" id="browser" placeholder="Choose an option">
+    <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+    <input type="submit" name="browsers">
+    <hr>
+    <h2 id="del-tag">&lt;del&gt; tag</h2>
+    <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+    <hr>
+    <h2 id="details-tag">&lt;details&gt; tag</h2>
+    <details open>
+        <summary>Epcot Center</summary>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+            international
+            pavilions,
+            award-winning fireworks and seasonal special events.</p>
+    </details>
+    <hr>
+    <h2 id="dfn-tag">&lt;dfn&gt; tag</h2>
+    <p>This is a dfn tag. <dfn id="html-def"><abbr title="HyperText Markup Language"><a
+                    href="#dfn-tag">HTML</a></abbr></dfn> is the standard markup language for
+        creating web
+        pages.</p>
+    <hr>
+    <h2 id="dialog-tag">&lt;dialog&gt; tag</h2>
+    <p>This is some text.</p>
+    <p>This is some text.</p>
+    <dialog open>This is an open dialog window</dialog>
+    <p>This is some text.</p>
+    <p>This is some text.</p>
+    <hr>
+    <h2 id="dl-tag">&lt;dl&gt;, &lt;dt&gt; and &lt;dd&gt; tag</h2>
+    <p>These three elements are used to create a description list:</p>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>White cold drink</dd>
+    </dl>
+    <hr>
+    <h2 id="em-tag">&lt;em&gt; tag</h2>
+    <p>You <em>have</em> to hurry up!</p>
+    <p>We <em>cannot</em> live like this.</p>
+    <hr>
+    <h2 id="embed-tag">&lt;embed&gt; tag</h2>
+    <p><strong>Embed image:</strong></p>
+    <embed id="embed-image" type="image/png" src="assets/images/linux.svg" width="150" height="85" alt="Linux"
+        title="Linux">
+    <hr>
+    <p><strong>Embed html:</strong></p>
+    <embed id="embed-html" type="text/html" src="https://www.fthyldz.com" width="800" height="600">
+    <hr>
+    <p><strong>Embed video:</strong></p>
+    <embed id="embed-video" type="video/mp4" src="assets/videos/video.mp4" width="265" height="150">
+    <hr>
+    <h2 id="fieldset-tag">&lt;fieldset&gt; tag</h2>
+    <form action="#fieldset-tag">
+        <fieldset>
+            <legend>Fieldset:</legend>
+            <p>Form fields goes here...</p>
+        </fieldset>
+    </form>
+    <hr>
+    <h2 id="figcaption-tag">&lt;figcaption&gt; tag</h2>
+    <figure>
+        <img src="assets/images/linux.svg" width="150" height="85" title="Linux" alt="Linux" loading="lazy">
+        <figcaption>Figcaption 1 - Tux, Linux Logo.</figcaption>
+    </figure>
+    <hr>
+    <h2 id="figure-tag">&lt;figure&gt; tag</h2>
+    <figure>
+        <img src="assets/images/linux.svg" width="150" height="85" title="Linux" alt="Linux" loading="lazy">
+        <figcaption>Figcaption 2 - Tux, Linux Logo.</figcaption>
+    </figure>
+    <hr>
+    <h2 id="footer-tag">&lt;footer&gt; tag</h2>
+    <footer>
+        <p>Author: Hege Refsnes<br>
+            <a href="mailto:hege@example.com">hege@example.com</a>
+        </p>
+    </footer>
+    <hr>
+    <h2 id="form-tag">&lt;form&gt; tag</h2>
+    <form action="#form-tag">
+        <fieldset>
+            <legend>Form legend</legend>
+            <p>Form inputs goes here...
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <h2 id="h1-to-h6-tag">&lt;h1&gt; to &lt;h6&gt; tag</h2>
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+    <p><b>Tip:</b> Use h1 to h6 elements only for headings. Do not use them just to make text bold
+        or big. Use other tags for that.</p>
+    <hr>
+    <h2 id="header-tag">&lt;header&gt; tag</h2>
+    <article>
+        <header>
+            <h1>A heading here</h1>
+            <p>Posted by John Doe</p>
+            <p>Some additional information here</p>
+        </header>
+        <p>Lorem Ipsum dolor set amet....</p>
+    </article>
+    <hr>
+    <h2 id="hgroup-tag">&lt;hgroup&gt; tag</h2>
+    <hgroup>
+        <h2>Norway</h2>
+        <p>The land with the midnight sun.</p>
+    </hgroup>
+    <hr>
+    <h2 id="hr-tag">&lt;hr&gt; tag</h2>
+    <p>HTML is the standard markup language for creating Web pages. HTML describes the structure of
+        a Web page, and consists of a series of elements. HTML elements tell the browser how to
+        display the content.</p>
+    <hr>
+    <p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or
+        in other media. CSS saves a lot of work, because it can control the layout of multiple web
+        pages all at once.</p>
+    <hr>
+    <p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML
+        content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML
+        elements, and more.</p>
+    <hr>
+    <h2 id="i-tag">&lt;i&gt; tag</h2>
+    <p><i>Lorem ipsum</i> is the most popular filler text in history.</p>
+    <p>The <i>RMS Titanic</i>, a luxury steamship, sank on April 15, 1912 after striking an iceberg.
+    </p>
+    <hr>
+    <h2 id="iframe-tag">&lt;iframe&gt; tag</h2>
+    <iframe id="iFramefthyldzCom" src="https://www.fthyldz.com" title="fthyldz.com" width="800" height="600"
+        name="my_iframe" allowfullscreen loading="lazy" sandbox>
+    </iframe>
+    <noscript>
+        Your browser does not support iframes.
+    </noscript><br>
+    <a href="https://www.fthyldz.com" target="my_iframe">FthYLDZ.com</a>
+    <br>
+    <p><b>Note:</b> Because the target of the link matches the name of the iframe, the link will
+        open in the
+        iframe.</p>
+    <hr>
+    <h2 id="img-tag">&lt;img&gt; tag</h2>
+    <img src="assets/images/linux.svg" title="Linux" alt="Linux" width="150" height="85" loading="lazy">
+    <hr>
+    <h2 id="input-tag">&lt;input&gt; tag types</h2>
+    <form action="index.html" name="myForm" method="post" autocomplete="off">
+        <fieldset>
+            <legend>FORM:</legend>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" autocomplete="name" placeholder="Full name" required><br><br>
+            <label for="given-name">First (Given) name:</label>
+            <input type="text" id="given-name" name="given-name" autocomplete="given-name"
+                placeholder="First (Given) name"><br><br>
+            <label for="additional-name">Middle (Additional) name:</label>
+            <input type="text" id="additional-name" name="additional-name" autocomplete="additional-name"
+                placeholder="Middle (Additional) name"><br><br>
+            <label for="family-name">Last (Family) name:</label>
+            <input type="text" id="family-name" name="family-name" autocomplete="family-name"
+                placeholder="Last (Family name)"><br><br>
+            <label for="sex">Gender (Sex):</label>
+            <input type="text" id="sex" name="sex" autocomplete="sex" placeholder="Gender (Sex)"><br><br>
+            <label for="one-time-code">One Time Code:</label>
+            <input type="text" id="one-time-code" name="one-time-code" autocomplete="one-time-code"
+                placeholder="One time code"><br><br>
+            <label for="honoric-prefix">Honoric Prefix (Mr, Ms, Dr):</label>
+            <input type="text" id="honoric-prefix" name="honoric-prefix" autocomplete="honoric-prefix"
+                placeholder="Honoric prefix (Mr, Ms, Dr)"><br><br>
+            <label for="honoric-suffix">Honoric Suffix (Jr., Sr.):</label>
+            <input type="text" id="honoric-suffix" name="honoric-suffix" autocomplete="honoric-suffix"
+                placeholder="Honoric suffix (Jr., Sr.)"><br><br>
+            <label for="nickname">Nickname:</label>
+            <input type="text" id="nickname" name="nickname" autocomplete="nickname" placeholder="Nickname"><br><br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" placeholder="Date"><br><br>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" placeholder="Time"><br><br>
+            <label for="datetime-local">Day and Time (Local):</label>
+            <input type="datetime-local" id="datetime-local" name="datetime-local"
+                placeholder="Day and Time (Local)"><br><br>
+            <label for="month-year">Month and Year:</label>
+            <input type="month" id="month-year" name="month-year" placeholder="Month and Year"><br><br>
+            <label for="week">Week:</label>
+            <input type="week" id="week" name="week" placeholder="Week"><br><br>
+            <label for="bday">Birthday:</label>
+            <input type="date" id="bday" name="bday" autocomplete="bday" placeholder="Birthday"><br><br>
+            <label for="bday-day">Birthday Day and Time:</label>
+            <input type="number" id="bday-day" name="bday-day" autocomplete="bday-day" min="1" max="31"
+                placeholder="Day of Birth">
+            <label for="bday-month">Birthday Month:</label>
+            <input type="number" id="bday-month" name="bday-month" autocomplete="bday-month" min="1" max="12"
+                placeholder="Month of Birth">
+            <label for="bday-year">Birthday Year:</label>
+            <input type="text" id="bday-year" name="bday-year" autocomplete="bday-year" placeholder="Year of Birth"
+                maxlength="4" size="4"><br><br>
+            <label for="uname">Username:</label>
+            <input type="text" id="uname" name="uname" autocomplete="username" placeholder="User name"><br><br>
+            <label for="email">Enter your email:</label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="E-Mail"><br><br>
+            <label for="emails">Enter multiple email addresses:</label>
+            <input type="email" id="emails" name="emails" multiple autocomplete="off"
+                placeholder="Multiple E-Mails"><br><br>
+            <label for="pwd">Password:</label>
+            <input type="password" id="pwd" name="pwd" minlength="3" autocomplete="off" placeholder="Password"><br><br>
+            <label for="new-password">New Password:</label>
+            <input type="password" id="new-password" name="new-password" minlength="3" autocomplete="new-password"
+                placeholder="New password"><br><br>
+            <label for="current-password">Current Password:</label>
+            <input type="password" id="current-password" name="current-password" minlength="3"
+                autocomplete="current-password" placeholder="Current password"><br><br>
+            <label for="phone">Enter a phone number:</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="123-45-678"
+                pattern="\+?[0-9\s\-]{7,15}"><br>
+            <small>Format: +90 532 123 4567 or +1 555-987-6543 or +44 20 7946 0958 or +49 152 1234
+                5678 or
+                +33 1 23 45 67 89 or +61 4 1234 5678 or 555-987-6543 or 532 123 4567 or +90 532 123
+                4567 or
+                +1-555-987-6543</small><br><br>
+            <label for="tel-country-code">Phone Country Code:</label>
+            <input type="tel" id="tel-country-code" name="tel-country-code" autocomplete="tel-country-code"
+                placeholder="Phone Country Code"><br><br>
+            <label for="tel-national">Phone National Number:</label>
+            <input type="tel" id="tel-national" name="tel-national" autocomplete="tel-national"
+                placeholder="Phone National Number"><br><br>
+            <label for="tel-area-code">Phone Area Code:</label>
+            <input type="tel" id="tel-area-code" name="tel-area-code" autocomplete="tel-area-code"
+                placeholder="Phone Area Code"><br><br>
+            <label for="tel-local">Phone Local Number:</label>
+            <input type="tel" id="tel-local" name="tel-local" autocomplete="tel-local"
+                placeholder="Phone Local Number"><br><br>
+            <label for="tel-local-prefix">Phone Local Prefix:</label>
+            <input type="tel" id="tel-local-prefix" name="tel-local-prefix" autocomplete="tel-local-prefix"
+                placeholder="Phone Local Prefix"><br><br>
+            <label for="tel-local-suffix">Phone Local Suffix:</label>
+            <input type="tel" id="tel-local-suffix" name="tel-local-suffix" autocomplete="tel-local-suffix"
+                placeholder="Phone Local Suffix"><br><br>
+            <label for="tel-extension">Phone Extension:</label>
+            <input type="tel" id="tel-extension" name="tel-extension" autocomplete="tel-extension"
+                placeholder="Phone Extension"><br><br>
+            <label for="homepage">Add your homepage:</label>
+            <input type="url" id="homepage" name="homepage" autocomplete="url" placeholder="fthyldz.com"><br><br>
+            <label for="impp">Instant Messaging URL:</label>
+            <input type="url" id="impp" name="impp" autocomplete="impp" placeholder="Instant Messaging URL"><br><br>
+            <label for="address-line1">Address Line 1:</label>
+            <input type="text" id="address-line1" name="address-line1" autocomplete="address-line1"
+                placeholder="Address line 1"><br><br>
+            <label for="address-line2">Address Line 2:</label>
+            <input type="text" id="address-line2" name="address-line2" autocomplete="address-line2"
+                placeholder="Address line 2"><br><br>
+            <label for="address-line3">Address Line 3:</label>
+            <input type="text" id="address-line3" name="address-line3" autocomplete="address-line3"
+                placeholder="Address line 3"><br><br>
+            <label for="address-level1">Address Level 1:</label>
+            <input type="text" id="address-level1" name="address-level1" autocomplete="address-level1"
+                placeholder="Address level 1"><br><br>
+            <label for="address-level2">Address Level 2:</label>
+            <input type="text" id="address-level2" name="address-level2" autocomplete="address-level2"
+                placeholder="Address level 2"><br><br>
+            <label for="address-level3">Address Level 3:</label>
+            <input type="text" id="address-level3" name="address-level3" autocomplete="address-level3"
+                placeholder="Address level 3"><br><br>
+            <label for="street-address">Street Address:</label>
+            <input type="text" id="street-address" name="street-address" autocomplete="street-address"
+                placeholder="Street address"><br><br>
+            <label for="countrycode">Country Code:</label>
+            <input type="text" id="countrycode" name="countrycode" autocomplete="country"
+                placeholder="Country code"><br><br>
+            <label for="country-name">Country Name:</label>
+            <input type="text" id="country-name" name="country-name" autocomplete="country-name"
+                placeholder="Country name"><br><br>
+            <label for="postal-code">Postal Code:</label>
+            <input type="text" id="postal-code" name="postal-code" autocomplete="postal-code"
+                placeholder="Postal code"><br><br>
+            <label for="organization-title">Organization Title:</label>
+            <input type="text" id="organization-title" name="organization-title" autocomplete="organization-title"
+                placeholder="Organization title"><br><br>
+            <label for="organization">Organization Name:</label>
+            <input type="text" id="organization" name="organization" autocomplete="organization"
+                placeholder="Organization name"><br><br>
+            <label for="cc-name">Credit Card Owner Name:</label>
+            <input type="text" id="cc-name" name="cc-name" autocomplete="cc-name" placeholder="CC owner name"><br><br>
+            <label for="cc-number">Credit Card Number:</label>
+            <input type="text" id="cc-number" name="cc-number" autocomplete="cc-number" placeholder="CC number"><br><br>
+            <label for="cc-exp">Credit Expiration Date:</label>
+            <input type="text" id="cc-exp" name="cc-exp" autocomplete="cc-exp" placeholder="CC expiration date"><br><br>
+            <label for="cc-exp-month">Credit Expiration Month:</label>
+            <input type="month" id="cc-exp-month" name="cc-exp-month" autocomplete="cc-exp-month"
+                placeholder="CC expiration month"><br><br>
+            <label for="cc-exp-year">Credit Expiration Year:</label>
+            <input type="number" id="cc-exp-year" name="cc-exp-year" autocomplete="cc-exp-year"
+                placeholder="CC expiration year"><br><br>
+            <label for="cc-given-name">Cardholder First Name:</label>
+            <input type="text" id="cc-given-name" name="cc-given-name" autocomplete="cc-given-name"
+                placeholder="Cardholder First Name"><br><br>
+            <label for="cc-additional-name">Cardholder Middle Name:</label>
+            <input type="text" id="cc-additional-name" name="cc-additional-name" autocomplete="cc-additional-name"
+                placeholder="Cardholder Middle Name"><br><br>
+            <label for="cc-family-name">Cardholder Family Name:</label>
+            <input type="text" id="cc-family-name" name="cc-family-name" autocomplete="cc-family-name"
+                placeholder="Cardholder family name"><br><br>
+            <label for="cc-csc">CVC Code:</label>
+            <input type="password" id="cc-csc" name="cc-csc" autocomplete="cc-csc" placeholder="CVC Code"><br><br>
+            <label for="cc-type">Card Type:</label>
+            <input type="text" id="cc-type" name="cc-type" autocomplete="cc-type" placeholder="Card Type"><br><br>
+            <label for="transaction-currency">Currency:</label>
+            <input type="text" id="transaction-currency" name="transaction-currency" autocomplete="transaction-currency"
+                placeholder="Currency"><br><br>
+            <label for="transaction-amount">Amount:</label>
+            <input type="number" id="transaction-amount" name="transaction-amount" autocomplete="transaction-amount"
+                placeholder="Amount"><br><br>
+            <label for="language">Preferred Language:</label>
+            <input type="text" id="language" name="language" autocomplete="language"
+                placeholder="Preferred Language"><br><br>
+            <label for="w3review">Review of fthyldz.com:</label><br>
+            <textarea placeholder="Please write your text!" id="w3review" name="w3review" rows="3"
+                cols="50">At fthyldz.com you will learn how to make a website. They offer free tutorials in all web development technologies.</textarea><br><br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label><br><br>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label><br><br>
+            <input type="radio" id="age1" name="age" value="30">
+            <label for="age1">0 - 30</label><br>
+            <input type="radio" id="age2" name="age" value="60">
+            <label for="age2">31 - 60</label><br>
+            <input type="radio" id="age3" name="age" value="100">
+            <label for="age3">61 - 100</label><br><br>
+            <label for="favcolor">Select your favorite color:</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ffffff"><br><br>
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile"><br><br>
+            <label for="myfile">Select an image file:</label>
+            <input type="file" id="myimagefile" name="myimagefile" autocomplete="photo" accept="image/*"><br><br>
+            <label for="myaudiofile">Select an audio file:</label>
+            <input type="file" id="myaudiofile" name="myaudiofile" accept="audio/*"><br><br>
+            <label for="myvideofile">Select a video file:</label>
+            <input type="file" id="myvideofile" name="myvideofile" accept="video/*"><br><br>
+            <label for="myspecifiedfile">Select a specified file:</label>
+            <input type="file" id="myspecifiedfile" name="myspecifiedfile"
+                accept=".doc, .docx, .xls, .xlsx, .pdf"><br><br>
+            <label for="myfile2">Select files:</label>
+            <input type="file" id="myfile2" name="myfile2" multiple><br><br>
+            <p>A Hidden Field (look in source code).<strong>Note:</strong> The hidden field is not
+                shown to the user, but the data is sent when the form is submitted.</p>
+            <input type="hidden" id="hiddenValue" name="custId" value="HiddenValue"><br><br>
+            <label for="quantity">Quantity (between 1 and 5):</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+            <label for="vol">Volume (between 0 and 50):</label>
+            <input type="range" id="vol" name="vol" min="0" max="50"><br><br>
+            <label for="gsearch">Search Google:</label>
+            <input type="search" id="gsearch" name="gsearch" placeholder="Type to search">
+            <button>Search</button><br><br>
+            <input type="image" src="assets/images/linux.svg" title="Submit" alt="Submit" width="48" height="48">
+            <input name="reset" type="reset" value="Reset" title="Reset">
+            <input name="submit" type="submit" value="Submit" title="Submit">
+            <input name="submit2" type="submit" value="Submit without character encoding" formenctype="text/plain"
+                title="Submit without character encoding">
+        </fieldset>
+    </form>
+    <hr>
+    <h2 id="ins-tag">&lt;ins&gt; tag</h2>
+    <p>This is a text. <ins cite="why_inserted.htm">This is an inserted text.</ins></p>
+    <hr>
+    <h2 id="kbd-tag">&lt;kbd&gt; tag</h2>
+    <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+    <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+    <hr>
+    <h2 id="label-tag">&lt;label&gt; tag</h2>
+    <p>Click on one of the text labels to toggle the related radio button:</p>
+    <form action="#label-tag">
+        <input type="radio" id="en" name="fav_language" value="English">
+        <label for="en">English</label><br>
+        <input type="radio" id="fr" name="fav_language" value="French">
+        <label for="fr">French</label><br>
+        <input type="radio" id="ch" name="fav_language" value="Chinese">
+        <label for="ch">Chinese</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <h2 id="li-tag">&lt;li&gt; tag</h2>
+    <p>Ordered list:</p>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <p>Unordered list:</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <hr>
+    <h2 id="main-tag">&lt;main&gt; tag</h2>
+    <main>
+        <h1>Most Popular Browsers</h1>
+        <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+        <article>
+            <h2>Google Chrome</h2>
+            <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the
+                world's most popular web browser today!</p>
+        </article>
+
+        <article>
+            <h2>Mozilla Firefox</h2>
+            <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been
+                the second most popular web browser since January, 2018.</p>
+        </article>
+
+        <article>
+            <h2>Microsoft Edge</h2>
+            <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft
+                Edge replaced Internet Explorer.</p>
+        </article>
+    </main>
+    <hr>
+    <h2 id="mark-tag">&lt;mark&gt; tag</h2>
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+    <hr>
+    <h2 id="menu-tag">&lt;menu&gt; tag</h2>
+    <menu>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </menu>
+    <hr>
+    <h2 id="meter-tag">&lt;meter&gt; tag</h2>
+    <p>The meter element is used to display a gauge:</p>
+    <label for="disk_c">Disk usage C:</label>
+    <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+    <label for="disk_d">Disk usage D:</label>
+    <meter id="disk_d" value="0.6">60%</meter>
+    <p><label for="anna">Anna's score:</label>
+        <meter id="anna" min="0" low="40" high="90" max="100" value="95"></meter>
+    </p>
+    <p><label for="peter">Peter's score:</label>
+        <meter id="peter" min="0" low="40" high="90" max="100" value="65"></meter>
+    </p>
+    <p><label for="linda">Linda's score:</label>
+        <meter id="linda" min="0" low="40" high="90" max="100" value="35"></meter>
+    </p>
+    <p><strong>Note:</strong> The meter tag is not supported in Edge 12 (or earlier).</p>
+    <hr>
+    <h2 id="nav-tag">&lt;nav&gt; tag</h2>
+    <p>The nav element defines a set of navigation links:</p>
+    <nav>
+        <a href="#nav-tag">HTML</a> |
+        <a href="#nav-tag">CSS</a> |
+        <a href="#nav-tag">JavaScript</a> |
+        <a href="#nav-tag">Python</a>
+    </nav>
+    <hr>
+    <h2 id="noscript-tag">&lt;noscript&gt; tag</h2>
+    <script>
+        document.write("Your browser supports JavaScript!")
+    </script>
+    <noscript>Sorry, your browser does not support or disabled JavaScript!</noscript>
+    <hr>
+    <h2 id="object-tag">&lt;object&gt; tag</h2>
+    <p><strong>Image object:</strong></p>
+    <object id="object-image" data="assets/images/linux.svg" width="150" height="85" title="Linux"></object>
+    <hr>
+    <p><strong>Html object:</strong></p>
+    <object id="object-html" data="https://www.fthyldz.com/" width="800" height="600" title="FTHYLDZ.COM"></object>
+    <hr>
+    <p><strong>Video object:</strong></p>
+    <object id="object-video" data="assets/videos/video.mp4" width="265" height="150" title="Video Object"></object>
+    <hr>
+    <h2 id="ol-tag">&lt;ol&gt; tag</h2>
+    <p><b>Default:</b></p>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>
+            <ol>
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ol>
+        </li>
+        <li>Milk</li>
+    </ol>
+    <p><b>Reversed:</b></p>
+    <ol reversed>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>
+            <ol reversed>
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ol>
+        </li>
+        <li>Milk</li>
+    </ol>
+    <p><b>Starting at "20":</b></p>
+    <ol start="20">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>
+            <ol start="20">
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ol>
+        </li>
+        <li>Milk</li>
+    </ol>
+    <p><b>Alphabetically ordered list, lowercase (a, b, c, d):</b></p>
+    <ol type="a">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>
+            <ol start="20">
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ol>
+        </li>
+        <li>Milk</li>
+    </ol>
+    <p><b>Alphabetically ordered list, uppercase (A, B, C, D):</b></p>
+    <ol type="A">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>
+            <ol start="20">
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ol>
+        </li>
+        <li>Milk</li>
+    </ol>
+    <p><b>Roman numbers, lowercase (i, ii, iii, iv):</b></p>
+    <ol type="i">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>
+            <ol start="20">
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ol>
+        </li>
+        <li>Milk</li>
+    </ol>
+    <p><b>Roman numbers, uppercase (I, II, III, IV):</b></p>
+    <ol type="I">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>
+            <ol start="20">
+                <li>Black tea</li>
+                <li>Green tea</li>
+            </ol>
+        </li>
+        <li>Milk</li>
+    </ol>
+    <hr>
+    <h2 id="optgroup-tag">&lt;optgroup&gt; tag</h2>
+    <form action="#optgroup-tag">
+        <label for="automobiles">Choose a car:</label>
+        <select name="automobiles" id="automobiles">
+            <option value="" selected hidden>Select your option</option>
+            <optgroup label="Japanese Automobiles">
+                <option value="toyota">Toyota</option>
+                <option value="mitsubishi">Mitsubishi</option>
+            </optgroup>
+            <optgroup label="French Automobiles" disabled>
+                <option value="renault">Renault</option>
+                <option value="citroen">Citroen</option>
+            </optgroup>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <h2 id="option-tag">&lt;option&gt; tag</h2>
+    <form action="#option-tag" name="cars">
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <option value="" selected hidden>Select your option</option>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <h2 id="output-tag">&lt;output&gt; tag</h2>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <label for="a">Range:</label>
+        <input type="range" id="a" value="50">
+        <label for="b">Number:</label>
+        +<input type="number" id="b" value="25">
+        =<output name="x" for="a b"></output>
+    </form>
+    <hr>
+    <h2 id="p-tag">&lt;p&gt; tag</h2>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <p>This is a paragraph.</p>
+    <hr>
+    <h2 id="param-tag">&lt;param&gt; tag</h2>
+    <object id="object-param" data="assets/audios/audio.mp3" title="Audio Object" width="300" height="180">
+        <param name="autoplay" value="false">
+    </object>
+    <hr>
+    <h2 id="picture-tag">&lt;picture&gt; tag</h2>
+    <p>Resize the browser window to load different images.</p>
+    <picture>
+        <source media="(min-width:1280px)" srcset="assets/images/tr-flag.svg">
+        <source media="(min-width:800px)" srcset="assets/images/mosque.svg">
+        <img src="assets/images/allah.svg" title="Allah" alt="Allah" style="width:auto;" loading="lazy">
+    </picture>
+    <hr>
+    <h2 id="pre-tag">&lt;pre&gt; tag</h2>
+    <pre>
+                            Text in a pre element
+                            is displayed in a fixed-width
+                            font, and it preserves
+                            both      spaces and
+                            line breaks
+                            </pre>
+    <hr>
+    <h2 id="progress-tag">&lt;progress&gt; tag</h2>
+    <label for="file">Downloading progress:</label>
+    <progress id="file" value="32" max="100"> 32% </progress>
+    <hr>
+    <h2 id="q-tag">&lt;q&gt; tag</h2>
+    <p>WWF's goal is to:
+        <q>Build a future where people live in harmony with nature.</q>
+        We hope they succeed.
+    </p>
+    <hr>
+    <h2 id="rp-tag">&lt;rp&gt; tag</h2>
+    <ruby>
+        漢 <rp>(</rp>
+        <rt>ㄏㄢˋ</rt>
+        <rp>)</rp>
+    </ruby>
+    <hr>
+    <h2 id="rt-tag">&lt;rt&gt; tag</h2>
+    <ruby>
+        漢 <rt> ㄏㄢˋ </rt>
+    </ruby>
+    <hr>
+    <h2 id="ruby-tag">&lt;ruby&gt; tag</h2>
+    <ruby>
+        漢 <rt> ㄏㄢˋ </rt>
+    </ruby>
+    <hr>
+    <h2 id="s-tag">&lt;s&gt; tag</h2>
+    <p><s>Only 50 tickets left!</s></p>
+    <p>SOLD OUT!</p>
+    <hr>
+    <h2 id="samp-tag">&lt;samp&gt; tag</h2>
+    <p>Message from my computer:</p>
+    <p><samp>File not found.<br>Press F1 to continue</samp></p>
+    <hr>
+    <h2 id="jscript-tag">&lt;script&gt; tag</h2>
+    <p id="hellojs"></p>
+    <script>
+        document.getElementById("hellojs").innerHTML = "Hello JavaScript!";
+    </script>
+    <hr>
+    <h2 id="search-tag">&lt;search&gt; tag</h2>
+    <search>
+        <form>
+            <input name="fsrch" id="fsrch" placeholder="Search">
+        </form>
+    </search>
+    <hr>
+    <h2 id="section-tag">&lt;section&gt; tag</h2>
+    <section>
+        <h2>WWF History</h2>
+        <p>The World Wide Fund for Nature (WWF) is an international organization working on issues
+            regarding the conservation, research and restoration of the environment, formerly named
+            the World Wildlife Fund. WWF was founded in 1961.</p>
+    </section>
+
+    <section>
+        <h2>WWF's Symbol</h2>
+        <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from
+            a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the
+            same year of the establishment of WWF.</p>
+    </section>
+    <hr>
+    <h2 id="select-tag">&lt;select&gt; tag</h2>
+    <form action="#select-tag">
+        <label for="animals">Choose an animal:</label><br>
+        <select name="animals" id="animals" size="4" multiple>
+            <option value="" selected hidden>Select your option</option>
+            <option value="cat">Cat</option>
+            <option value="dog" disabled>Dog</option>
+            <option value="bird">Bird</option>
+            <option value="fish">Fish</option>
+            <option value="lizard">Lizard</option>
+        </select><br>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <h2 id="small-tag">&lt;small&gt; tag</h2>
+    <p>This is some normal text.</p>
+    <p><small>This is some smaller text.</small></p>
+    <hr>
+    <h2 id="source-tag">&lt;source&gt; tag</h2>
+    <audio controls preload="none">
+        <source src="assets/audios/audio.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+        <a href="assets/audios/audio.mp3" download="audio.mp3">Download MP3 audio</a>.
+    </audio>
+    <hr>
+    <h2 id="span-tag">&lt;span&gt; tag</h2>
+    <p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has
+        <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.
+    </p>
+    <hr>
+    <h2 id="strong-tag">&lt;strong&gt; tag</h2>
+    <p>This text is normal.</p>
+    <p><strong>This text is important!</strong></p>
+    <hr>
+    <h2 id="sub-tag">&lt;sub&gt; tag</h2>
+    <p>This text contains <sub>subscript</sub> text.</p>
+    <hr>
+    <h2 id="summary-tag">&lt;summary&gt; tag</h2>
+    <details open>
+        <summary>Epcot Center</summary>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions,
+            international
+            pavilions,
+            award-winning fireworks and seasonal special events.</p>
+    </details>
+    <hr>
+    <h2 id="sup-tag">&lt;sup&gt; tag</h2>
+    <p>This text contains <sup>superscript</sup> text.</p>
+    <hr>
+    <h2 id="svg-tag">&lt;svg&gt; tag</h2>
+    <svg width="300" height="100">
+        <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+    </svg>
+    <svg width="300" height="180">
+        <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+            style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+    </svg>
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+            style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+    </svg>
+    <svg height="130" width="300">
+        <defs>
+            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+                <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+            </linearGradient>
+        </defs>
+        <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+        <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+    </svg>
+    <hr>
+    <h2 id="table-tag">&lt;table&gt;, &lt;caption&gt;, &lt;thead&gt;, &lt;tr&gt;, &lt;th&gt;, &lt;tbody&gt;,
+        &lt;td&gt;, &lt;tfoot&gt; tag</h2>
+    <table>
+        <caption>Monthly Savings</caption>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$80</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Sum</td>
+                <td>$180</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p><strong>"Phone" Cell that spans two columns:</strong></p>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th colspan="2">Phone</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>john.doe@example.com</td>
+            <td>123-45-678</td>
+            <td>212-00-546</td>
+        </tr>
+    </table>
+
+    <p><strong>Cell that spans two rows:</strong></p>
+    <table>
+        <tr>
+            <th>Name:</th>
+            <td>John Doe</td>
+        </tr>
+        <tr>
+            <th>Email:</th>
+            <td>john.doe@example.com</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone:</th>
+            <td>123-45-678</td>
+        </tr>
+        <tr>
+            <td>212-00-546</td>
+        </tr>
+    </table>
+    <hr>
+    <h2 id="template-tag">&lt;template&gt; tag</h2>
+    <p>Click the button below to display the hidden content from the template element.</p>
+    <button onclick="showContent()">Show hidden content</button>
+    <template>
+        <h2>Penguin</h2>
+        <img src="assets/images/linux.svg" width="100" height="auto" title="Penguin" alt="Penguin" loading="lazy">
+    </template>
+    <script>
+        function showContent() {
+            let temp = document.getElementsByTagName("template")[0];
+            let clon = temp.content.cloneNode(true);
+            let section = document.getElementById("template-tag");
+            let hrElement = section.querySelector("hr");
+            section.insertBefore(clon, hrElement);
+        }
+    </script>
+    <hr>
+    <h2 id="textarea-tag">&lt;textarea&gt; tag</h2>
+    <textarea id="textarea" name="textarea" rows="4" cols="50" maxlength="500"
+        placeholder="At fthyldz.com you will learn how to make a website. They offer free tutorials in all web development technologies."></textarea><br>
+    <button id="textareasend" name="textareasend">Send</button>
+    <hr>
+    <h2 id="time-tag">&lt;time&gt; tag</h2>
+    <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+    <p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+    <p><b>Note:</b> The time element does not render as anything special in any of the major
+        browsers.</p>
+    <hr>
+    <h2 id="track-tag">&lt;track&gt; tag</h2>
+    <video width="320" height="240" controls>
+        <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+        <source src="https://www.w3schools.com/tags/movie.ogg" type="video/ogg">
+        <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+        <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+        Your browser does not support the video tag.
+    </video>
+    <hr>
+    <h2 id="u-tag">&lt;u&gt; tag</h2>
+    <p>This is some <u>mispeled</u> text.</p>
+    <hr>
+    <h2 id="ul-tag">&lt;ul&gt; tag</h2>
+    <p>An unordered list in an unordered list in an unordered list</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea
+            <ul>
+                <li>Black tea</li>
+                <li>Green tea
+                    <ul>
+                        <li>China</li>
+                        <li>Africa</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Milk</li>
+    </ul>
+    <hr>
+    <h2 id="var-tag">&lt;var&gt; tag</h2>
+    <p>This is a var text. The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where
+        <var>b</var>
+        is the base, and <var>h</var> is the vertical height.
+    </p>
+    <hr>
+    <h2 id="video-tag">&lt;video&gt; tag</h2>
+    <video width="320" height="240" poster="assets/images/linux.svg" preload="none" controls muted>
+        <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+        <source src="https://www.w3schools.com/tags/movie.ogg" type="video/ogg">
+        <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+        <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+        Your browser does not support the video tag.
+    </video>
+    <hr>
+    <h2 id="wbr-tag">&lt;wbr&gt; tag</h2>
+    <p>Try to shrink the browser window, to view how the very long word in
+        the paragraph below will break:</p>
+    <p>This is a
+        veryveryveryveryveryveryveryveryveryveryveryveryvery<wbr>longwordthatwillbreakatspecific<wbr>placeswhenthebrowserwindowisresized.
+    </p>
+    <hr>
+</body>
+
+</html>
