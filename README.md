@@ -17,3 +17,16 @@ A flexible platform for web frontend developers to test and experiment with CSS 
    ```bash
    git clone https://github.com/your-username/css-test-framework.git
    cd css-test-framework
+   
+1. Open the index.html file in a browser to see the app in action.
+
+Contributing
+Feel free to fork this repository and submit pull requests. Please follow the standard GitHub flow: fork the repository, create a branch, and submit a pull request.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Contact
+Website: fthyldz.com
+
+Twitter: @fyildiz1974
