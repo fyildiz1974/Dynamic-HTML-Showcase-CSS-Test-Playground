@@ -15,8 +15,8 @@ A flexible platform for web frontend developers to test and experiment with CSS 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/css-test-framework.git
-   cd css-test-framework
+   git clone https://github.com/fyildiz1974/css-test-bench.git
+   cd css-test-bench
    
 2. Open the index.html file in your browser to view the application.
 
