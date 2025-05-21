@@ -114,3 +114,6 @@ Submit a Pull Request, and let's make this project better together!
 
 📜 License
 This project is licensed under the MIT License – feel free to use, modify, and share!
+
+Made with ❤️ by [Fatih YILDIZ](https://github.com/fyildiz1974).
+
