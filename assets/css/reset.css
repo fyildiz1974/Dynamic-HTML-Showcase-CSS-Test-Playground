@@ -65,7 +65,7 @@ a:focus-visible,
 button,
 input[type="submit"],
 input[type="reset"],
-input[type="button"] {
+input[type="button"], ::file-selector-button {
     padding: .1em .6em;
     margin: .2em;
     cursor: pointer;
@@ -88,7 +88,7 @@ input[type="button"] {
     button,
     input[type="submit"],
     input[type="reset"],
-    input[type="button"] {
+    input[type="button"], ::file-selector-button {
         width: auto;
         max-width: 100%;
         min-width: 48px;
