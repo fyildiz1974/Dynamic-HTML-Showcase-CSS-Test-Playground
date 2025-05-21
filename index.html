@@ -13,15 +13,15 @@
     <title>HTML5 Starter Template</title>
     <meta name="robots" content="index, follow">
     <meta name="rating" content="safe for kids">
-    <meta property="og:url" content="https://www.fthyldz.com">
+    <meta property="og:url" content="https://www.fthyldz.com/csstest/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="fthyldz.com HTML5 Starter Template">
     <meta property="og:description"
         content="fthyldz.com website, example, HTML, CSS, HTML Demo, Html5, Html elements, Htmtl tags, JavaScript.">
     <meta property="og:image" content="https://www.fthyldz.com/logo.png">
     <meta name="twitter:card" content="summary">
-    <meta property="twitter:domain" content="https://www.fthyldz.com">
-    <meta property="twitter:url" content="https://www.fthyldz.com">
+    <meta property="twitter:domain" content="https://www.fthyldz.com/csstest/">
+    <meta property="twitter:url" content="https://www.fthyldz.com/csstest/">
     <meta name="twitter:site" content="@fyildiz1974">
     <meta name="twitter:title" content="@fyildiz1974">
     <meta name="twitter:description"
@@ -33,7 +33,7 @@
     <link id="style" rel="stylesheet" href="assets/css/style.css">
     <!--<link rel="stylesheet" href="assets/css/print.css" media="print">-->
     <!--<base href="https://www.fthyldz.com/">-->
-    <link rel="canonical" href="https://www.fthyldz.com/html/index.html">
+    <link rel="canonical" href="https://www.fthyldz.com/csstest/index.html">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -110,7 +110,7 @@
           </script>
 </head>
 
-<body id="top">    
+<body id="top" class="doodle" data-typesettings>
     <h1>HTML5 Test Page</h1>
     <hr><br>
     <fieldset>
@@ -132,109 +132,354 @@
                 <option value="assets/css/css-reset/eric-meyer-v1.css">Eric Meyer's Reset v1</option>
                 <option value="assets/css/css-reset/eric-meyer-v2.css">Eric Meyer's Reset v2</option>
                 <option value="https://necolas.github.io/normalize.css/8.0.1/normalize.css">Normalize</option>
-                <option value="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css">Modern Normalize</option>
-                <option value="assets/css/css-reset/reset-css-complete.css">Alex Leon's Reset</option>                
+                <option value="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css">Modern Normalize
+                </option>
+                <option value="assets/css/css-reset/reset-css-complete.css">Alex Leon's Reset</option>
                 <option value="assets/css/css-reset/a-more-modern.css">Andy Bell's More Modern Reset</option>
                 <option value="assets/css/css-reset/best-css-reset-2024.css">Best CSS Reset 2024</option>
                 <option value="assets/css/css-reset/frank-pierce-the-reset.css">Frank Pierce's Reset</option>
                 <option value="assets/css/css-reset/a-modern.css">Josh Comeau's Modern Reset</option>
+                <option value="https://unpkg.com/nanoreset">Nano Reset</option>
+                <option value="https://raw.githack.com/nicolas-cusan/destyle.css/master/destyle.css">Destyle Reset
+                </option>
                 <option value="assets/css/css-reset/poor-man.css">Poor Man's Reset</option>
+                <option value="https://unpkg.com/@acab/reset.css">Reset CSS</option>
+                <option value="https://unpkg.com/ress">Ress CSS</option>
                 <option value="https://unpkg.com/sanitize.css">Sanitize Reset</option>
                 <option value="assets/css/css-reset/shaun-inman-global-reset.css">Shaun Inman's Reset</option>
-                <option value="assets/css/css-reset/siolon-global-reset.css">Siolon's Reset</option>                
-                <option value="assets/css/css-reset/tailwind-preflight.css">Tailwind Reset</option>                
+                <option value="assets/css/css-reset/siolon-global-reset.css">Siolon's Reset</option>
+                <option value="assets/css/css-reset/tailwind-preflight.css">Tailwind Reset</option>
                 <option value="assets/css/css-reset/tantek-reset.css">Tantek's Reset</option>
                 <option value="assets/css/css-reset/tripoli-reset.css">Tripoli's Reset</option>
                 <option value="assets/css/css-reset/yahoo-reset.css">Yahoo Reset</option>
             </optgroup>
             <optgroup label="Classless CSS">
-                <option value="https://a11yana.com/dist/a11yana.css">a11yana</option>
-                <option value="https://alvaromontoro.github.io/almond.css/dist/almond.min.css">Almond.CSS</option>
-                <option value="https://raj457036.github.io/attriCSS/themes/brightlight-green.css">AttriCSS</option>
-                <option value="https://unpkg.com/awsm.css/dist/awsm.min.css">awsm.css</option>
-                <option value="https://unpkg.com/axist@latest/dist/axist.min.css">axist</option>
-                <option value="https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css">Bahunya</option>
-                <option value="https://rilwis.github.io/bamboo/dist/bamboo.min.css">Bamboo CSS</option>
-                <option value="https://barecss.com/css/bare.min.css">BareCSS</option>
-                <option value="https://vladocar.github.io/Basic.css/css/basic.css">Basic.css</option>
-                <option value="https://unpkg.com/boltcss/bolt.min.css">Bolt.css</option>
-                <option value="https://unpkg.com/bonsai.css@latest/dist/bonsai.min.css">bonsai.css</option>
-                <option value="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">Bootstrap.css
-                </option>
-                <option value="https://cdn.jsdelivr.net/npm/bullframe.css@^4.0.0">Bullframe.css</option>
+                <option value="https://a11yana.com/dist/a11yana.css">A11yana CSS</option>
+                <option value="https://unpkg.com/almond.css">Almond CSS</option>
                 <option
-                    value="https://milouse.github.io/centigram/assets/css/style.css?v=ba3c394aea687f51448571266dab78d2de63c5b3">
-                    Centigram.css</option>
-                <option value="https://unpkg.com/chimeracss/build/chimera.css">ChimeraCSS</option>
-                <option value="https://unpkg.com/cirrus-ui">Cirrus</option>
-                <option value="https://classless.de/classless.css">Classless.css</option>
-                <option value="https://cdn.jsdelivr.net/codify.css/latest/codify.min.css">Codify</option>
-                <option value="https://npmcdn.com/comet-css@1.2.0/dist/comet.min.css">Comet</option>
-                <option value="https://cdnjs.cloudflare.com/ajax/libs/concrete.css/3.0.0/concrete.css">concrete.css
+                    value="https://raw.githack.com/raj457036/attriCSS/refs/heads/master/themes/brightlight-green.css">
+                    Attri CSS - Brightlight-Green</option>
+                <option value="https://raw.githack.com/raj457036/attriCSS/refs/heads/master/themes/midnight-green.css">
+                    Attri CSS - Midnight-Green</option>
+                <option
+                    value="https://raw.githack.com/raj457036/attriCSS/refs/heads/master/themes/darkforest-green.css">
+                    Attri CSS - Darkforest-Green</option>
+                <option value="https://raw.githack.com/raj457036/attriCSS/refs/heads/master/themes/lightfairy-pink.css">
+                    Attri CSS - Lightfairy-Pink</option>
+                <option value="https://raw.githack.com/raj457036/attriCSS/refs/heads/master/themes/darkfairy-pink.css">
+                    Attri CSS - Darkfairy-Pink</option>
+                <option value="https://unpkg.com/awsm.css/dist/awsm.min.css">Awsm CSS</option>
+                <option value="https://unpkg.com/axist@latest/dist/axist.min.css">Axist CSS</option>
+                <option value="https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css">Bahunya CSS</option>
+                <option value="https://unpkg.com/bamboo.css">Bamboo CSS</option>
+                <option value="https://raw.githack.com/longsien/BareCSS/master/css/bare.min.css">Bare CSS</option>
+                <option value="https://raw.githack.com/vladocar/Basic.css/master/css/basic.min.css">Basic CSS</option>
+                <option value="https://unpkg.com/boltcss">Bolt CSS</option>
+                <option value="https://raw.githack.com/twbs/bootstrap/main/dist/css/bootstrap.min.css">Bootstrap CSS
                 </option>
-                <option value="https://raw.githack.com/waldyrious/downstyler/master/downstyler.css">Downstyler</option>
-                <option value="https://gdcss.netlify.app/gd.css">GDCSS</option>
-                <option value="https://cdn.jsdelivr.net/npm/holiday.css@0.11.2">holiday.css</option>
-                <option value="https://cdn.jsdelivr.net/gh/Kimeiga/kacit/kacit.min.css">kacit.css</option>
-                <option value="https://davidrzs.github.io/latexcss/latex.css">LatexCSS</option>
-                <option value="https://unpkg.com/magick.css">magick.css</option>
-                <option value="https://markdowncss.github.io/air/css/air.css">Markdown CSS — Air</option>
-                <option value="https://markdowncss.github.io/modest/css/modest.css">Markdown CSS — Modest</option>
-                <option value="https://markdowncss.github.io/retro/css/retro.css">Markdown CSS — Retro</option>
-                <option value="https://markdowncss.github.io/splendor/css/splendor.css">Markdown CSS — Splendor</option>
-                <option value="https://unpkg.com/marx-css/css/marx.min.css">Marx</option>
-                <option value="https://wmeredith.github.io/MercuryCSS/css/min/mercury.min.css">MercuryCSS</option>
-                <option value="https://unpkg.com/missing.css/dist/missing.min.css">Missing.css</option>
-                <option value="https://unpkg.com/mvp.css">MVP.css</option>
-                <option value="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">new.css</option>
-                <option value="https://davidpaulsson.github.io/no-class/css/no-class.min.css">no-class.css</option>
-                <option value="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">Pico.css</option>
-                <option value="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fluid.classless.slate.min.css">
-                    Pico.css - Fluid</option>
-                <option value="https://swlkr.com/ridgecss/ridge.css">ridge.css</option>
-                <option value="https://cdn.jsdelivr.net/npm/sakura.css/css/sakura.css">sakura</option>
-                <option value="https://cdn.simplecss.org/simple.min.css">Simple.css</option>
+                <option value="assets/css/classless/brutalist.min.css">Brutalist CSS</option>
+                <option value="https://cdn.jsdelivr.net/npm/bullframe.css@^4.0.0">Bullframe CSS</option>
+                <option value="https://raw.githack.com/milouse/centigram/main/dist/centigram.min.css">
+                    Centigram CSS</option>
+                <option value="https://unpkg.com/chimeracss/build/chimera.css">Chimera CSS</option>
+                <option value="https://unpkg.com/chimeracss/build/chimera-autumn.css">Chimera CSS - Autumn</option>
+                <option value="https://unpkg.com/chimeracss/build/chimera-blues.css">Chimera CSS - Blues</option>
+                <option value="https://unpkg.com/chimeracss/build/chimera-dark.css">Chimera CSS - Dark</option>
+                <option value="https://unpkg.com/chimeracss/build/chimera-golden.css">Chimera CSS - Golden</option>
+                <option value="https://unpkg.com/chimeracss/build/chimera-nightsky.css">Chimera CSS - Nightsky</option>
+                <option value="https://unpkg.com/chimeracss/build/chimera-plain.css">Chimera CSS - Plain</option>
+                <option value="https://classless.de/classless.css">Classless CSS</option>
+                <option value="https://classless.de/classless-tiny.css">Classless Tiny CSS</option>
+                <option value="https://raw.githack.com/DigitallyTailored/Classless.css/main/classless.min.css">
+                    Classless CSS New</option>
+                <option value="https://raw.githack.com/24aitor/CLMaterial/master/src/css/clmaterial.css">Clmaterial CSS
+                </option>
+                <option value="https://cdn.jsdelivr.net/codify.css/latest/codify.min.css">Codify CSS</option>
+                <option value="https://cdn.concisecss.com/concise.min.css">Concise CSS</option>
+                <option value="https://raw.githack.com/louismerlin/concrete.css/main/concrete.min.css">Concrete CSS
+                </option>
+                <option value="https://cdn.jsdelivr.net/gh/ekmas/cs16.css@main/css/cs16.min.css">Cs16 CSS</option>
+                <option value="https://raw.githack.com/waldyrious/downstyler/master/downstyler.css">Downstyler CSS
+                </option>
+                <option value="https://raw.githack.com/neocities/element/master/element.css">Element CSS</option>
+                <option value="https://cdn.jsdelivr.net/npm/@fylgja/base/index.min.css">Fylgja CSS</option>
+                <option value="https://raw.githack.com/hawkz/gdcss/master/gd.css">Gd CSS</option>
+                <option value="assets/css/classless/generic.min.css">Generic CSS</option>
+                <option value="https://raw.githack.com/mattduck/generic-css/master/css/generic-light.css">Generic CSS -
+                    Light</option>
+                <option value="https://raw.githack.com/mattduck/generic-css/master/css/generic-dark.css">Generic CSS -
+                    Dark</option>
+                <option value="assets/css/classless/github-markdown.min.css">Github Markdown CSS</option>
+                <option value="https://raw.githack.com/BafS/Gutenberg/master/dist/gutenberg.css">Gutenberg CSS</option>
+                <option value="https://raw.githack.com/zichy/fieber/master/fieber.css">Fieber CSS</option>
+                <option value="https://raw.githack.com/arp242/hello-css/master/dist/all.css">Hello CSS</option>
+                <option value="https://raw.githack.com/EvgenyOrekhov/holiday.css/master/dist/holiday.css">Holiday CSS
+                </option>
+                <option value="https://cdn.jsdelivr.net/gh/Kimeiga/kacit/kacit.min.css">Kacit CSS</option>
+                <option value="https://unpkg.com/latex.css">Latex CSS</option>
+                <option value="assets/css/classless/lemon.min.css">Lemon CSS</option>
+                <option value="https://raw.githack.com/lissomware/css/main/lissom.css">Lissom CSS</option>
+                <option value="https://unpkg.com/magick.css">Magick CSS</option>
+                <option value="assets/css/classless/markdown.min.css">Markdown CSS</option>
+                <option value="https://raw.githack.com/markdowncss/air/master/css/air.css">Markdown CSS — Air</option>
+                <option value="https://raw.githack.com/markdowncss/modest/master/css/modest.css">Markdown CSS — Modest
+                </option>
+                <option value="https://raw.githack.com/markdowncss/retro/master/css/retro.css">Markdown CSS — Retro
+                </option>
+                <option value="https://raw.githack.com/markdowncss/splendor/master/css/splendor.css">Markdown CSS —
+                    Splendor</option>
+                <option value="https://unpkg.com/marx-css">Marx CSS</option>
+                <option value="https://raw.githack.com/wmeredith/MercuryCSS/master/dist/mercury.css">Mercury CSS
+                </option>
+                <option value="https://raw.githack.com/Chalarangelo/mini.css/master/dist/mini-default.css">Mini CSS -
+                    Default</option>
+                <option value="https://raw.githack.com/Chalarangelo/mini.css/master/dist/mini-dark.css">Mini CSS -
+                    Default</option>
+                <option value="https://raw.githack.com/Chalarangelo/mini.css/master/dist/mini-nord.css">Mini CSS -
+                    Default</option>
+                <option value="https://unpkg.com/missing.css">Missing CSS</option>
+                <option value="https://unpkg.com/mvp.css">MVP CSS</option>
+                <option value="https://neat.joeldare.com/neat.css">Neat CSS</option>
+                <option value="https://cdn.jsdelivr.net/npm/@exampledev/new.css">New CSS</option>
+                <option value="https://davidpaulsson.github.io/no-class/css/no-class.min.css">No-class CSS</option>
+                <option value="https://raw.githack.com/andrewh0/okcss/main/dist/ok.min.css">Ok CSS</option>
+                <option value="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.css">Pico CSS
+                </option>
+                <option value="https://swlkr.com/ridgecss/ridge.css">Ridge CSS</option>
+                <option value="https://cdn.jsdelivr.net/npm/sakura.css">Sakura CSS</option>
+                <option value="https://cdn.simplecss.org/simple.min.css">Simple CSS</option>
                 <option value="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">Skeleton</option>
                 <option value="https://unpkg.com/spcss">SPCSS</option>
-                <option value="https://unpkg.com/style.css">style.css</option>
-                <option value="https://cdn.jsdelivr.net/npm/tacit-css@1.9.0/dist/tacit-css.min.css">tacit</option>
-                <option value="https://cdn.jsdelivr.net/npm/tiny.css@0.12/dist/tiny.css">Tiny.css</option>
-                <option value="https://unpkg.com/tty.css">tty.css</option>
-                <option value="https://unpkg.com/@bafs/mu@0.3/mu.min.css">The μ CSS</option>
-                <option value="https://vanillacss.com/vanilla.css">Vanilla.css</option>
+                <option value="https://unpkg.com/style.css">Style CSS</option>
+                <option value="https://raw.githack.com/caiogondim/superstylin/master/src/index.css">Superstylin CSS
+                </option>
+                <option value="https://cdn.jsdelivr.net/npm/tacit-css">Tacit CSS</option>
+                <option value="https://cdn.jsdelivr.net/npm/tiny.css@0.12/dist/tiny.css">Tiny CSS</option>
+                <option value="https://unpkg.com/@bafs/mu@0.3/mu.css">The μ CSS</option>
+                <option value="https://unpkg.com/tty.css">Tty CSS</option>
+                <option value="https://mikemai.net/typesettings/css/typesettings-2.0-min.css">Typesettings CSS
+                </option>
+                <option value="https://raw.githack.com/bradleytaunt/vanilla-css/master/vanilla.css">Vanilla CSS</option>
                 <option value="https://edwardtufte.github.io/tufte-css/tufte.css">Tufte CSS</option>
-                <option value="https://www.w3.org/StyleSheets/Core/Oldstyle">W3C - Oldstyle</option>
-                <option value="https://www.w3.org/StyleSheets/Core/Modernist">W3C - Modernist</option>
-                <option value="https://www.w3.org/StyleSheets/Core/Midnight">W3C - Midnight</option>
-                <option value="https://www.w3.org/StyleSheets/Core/Ultramarine">W3C - Ultramarine</option>
-                <option value="https://www.w3.org/StyleSheets/Core/Swiss">W3C - Swiss</option>
-                <option value="https://www.w3.org/StyleSheets/Core/Chocolate">W3C - Chocolate</option>
-                <option value="https://www.w3.org/StyleSheets/Core/Traditional">W3C - Traditional</option>
-                <option value="https://www.w3.org/StyleSheets/Core/Steely">W3C - Steely</option>
-                <option value="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">water.css</option>
-                <option value="https://writ.cmcenroe.me/writ.min.css">Writ</option>
-
-            </optgroup>
-            <optgroup label="Class Light CSS">
-                <option value="https://eternityforest.github.io/barrel.css/css/barrel.css">Barrel.css</option>
-                <option value="https://unpkg.com/chota@latest">Chota</option>
-                <option value="https://cdn.jsdelivr.net/npm/@fylgja/base/index.min.css">Fylgja</option>
-                <option value="https://matcha.mizu.sh/matcha.css">matcha.css</option>
-                <option value="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">Miligram</option>
-                <option value="https://unpkg.com/wingcss">Wing</option>
+                <option value="https://www.w3.org/StyleSheets/Core/Oldstyle">W3C CSS - Oldstyle</option>
+                <option value="https://www.w3.org/StyleSheets/Core/Modernist">W3C CSS - Modernist</option>
+                <option value="https://www.w3.org/StyleSheets/Core/Midnight">W3C CSS - Midnight</option>
+                <option value="https://www.w3.org/StyleSheets/Core/Ultramarine">W3C CSS - Ultramarine</option>
+                <option value="https://www.w3.org/StyleSheets/Core/Swiss">W3C CSS - Swiss</option>
+                <option value="https://www.w3.org/StyleSheets/Core/Chocolate">W3C CSS - Chocolate</option>
+                <option value="https://www.w3.org/StyleSheets/Core/Traditional">W3C CSS- Traditional</option>
+                <option value="https://www.w3.org/StyleSheets/Core/Steely">W3C CSS - Steely</option>
+                <option value="https://cdn.jsdelivr.net/npm/water.css">Water CSS</option>
+                <option value="https://raw.githack.com/programble/writ/master/writ.css">Writ CSS</option>
+                <option value="https://raw.githack.com/runxel/yamb-css/master/yamb.css">Yamb CSS</option>
+                <option value="https://raw.githack.com/metakirby5/yorha/master/dist/yorha.css">Yorha CSS</option>
             </optgroup>
             <optgroup label="Other CSS">
-                <option value="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">Bootstrap
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/asciidoctor.css">
+                    Ascii Doctor CSS</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/adoc-colony.css">
+                    Ascii Doctor CSS - Colony</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/adoc-foundation.css">
+                    Ascii Doctor CSS - Foundation</option>
+                <option
+                    value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/adoc-foundation-lime.css">
+                    Ascii Doctor CSS - Foundation Lime</option>
+                <option
+                    value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/adoc-foundation-potion.css">
+                    Ascii Doctor CSS - Foundation Potion</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/adoc-golo.css">Ascii
+                    Doctor CSS - Golo</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/adoc-iconic.css">
+                    Ascii Doctor CSS - Iconic</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/adoc-maker.css">Ascii
+                    Doctor CSS - Maker</option>
+                <option
+                    value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/adoc-readthedocs.css">
+                    Ascii Doctor CSS - Read The Docs</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/adoc-riak.css">Ascii
+                    Doctor CSS - Riak</option>
+                <option
+                    value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/adoc-rocket-panda.css">
+                    Ascii Doctor CSS - Rocket Panda</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/adoc-rubygems.css">
+                    Ascii Doctor CSS - Ruby Gems</option>
+                <option
+                    value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/asciidoc-classic.css">
+                    Ascii Doctor CSS - Classic</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/boot-cerulean.css">
+                    Ascii Doctor - Boot CSS - Carulean</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/boot-cosmo.css">Ascii
+                    Doctor - Boot
+                    CSS - Cosmo</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/boot-cyborg.css">
+                    Ascii Doctor - Boot
+                    CSS - Cyborg</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/boot-darkly.css">
+                    Ascii Doctor - Boot
+                    CSS - Darkly</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/boot-flatly.css">
+                    Ascii Doctor - Boot
+                    CSS - Flatly</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/boot-journal.css">
+                    Ascii Doctor - Boot CSS - Journal</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/boot-lumen.css">Ascii
+                    Doctor - Boot
+                    CSS - Lumen</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/boot-paper.css">Ascii
+                    Doctor - Boot
+                    CSS - Paper</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/boot-readable.css">
+                    Ascii Doctor - Boot CSS - Readable</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/boot-sandstone.css">
+                    Ascii Doctor - Boot CSS - Sandstone</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/boot-slate.css">Ascii
+                    Doctor - Boot
+                    CSS - Slate</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/boot-spacelab.css">
+                    Ascii Doctor - Boot CSS - Spacelab</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/boot-superhero.css">
+                    Ascii Doctor - Boot CSS - Superhero</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/boot-yeti.css">Ascii
+                    Doctor - Boot
+                    CSS - Yeti</option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/clean.css">Ascii
+                    Doctor - Clean CSS
                 </option>
-                <option value="https://cdn.jsdelivr.net/npm/@materializecss/materialize@2.2.2/dist/css/materialize.min.css">Materialize CSS</option>
-                <option value="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css">Foundation
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/dark.css">Ascii
+                    Doctor - Dark CSS
                 </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/fedora.css">Ascii
+                    Doctor - Fedora
+                    CSS
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/gazette.css" Ascii
+                    Doctor ->Gazette
+                    CSS
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/italian-pop.css">
+                    Ascii Doctor - Italian Pop CSS
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/material-amber.css">
+                    Ascii Doctor - Material CSS - Amber
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/material-blue.css">
+                    Ascii Doctor - Material CSS - Blue
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/material-brown.css">
+                    Ascii Doctor - Material CSS - Brown
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/material-green.css">
+                    Ascii Doctor - Material CSS - Green
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/material-grey.css">
+                    Ascii Doctor - Material CSS - Grey
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/material-orange.css">
+                    Ascii Doctor - Material CSS - Orange
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/material-pink.css">
+                    Ascii Doctor - Material CSS - Pink
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/material-purple.css">
+                    Ascii Doctor - Material CSS - Purple
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/material-red.css">
+                    Ascii Doctor - Material CSS - Red
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/material-teal.css">
+                    Ascii Doctor - Material CSS - Teal
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/medium.css">
+                    Ascii Doctor - Medium CSS
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/monospace.css">
+                    Ascii Doctor - Monospace CSS
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/notebook.css">
+                    Ascii Doctor - Notebook CSS
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/plain.css">
+                    Ascii Doctor - Plain CSS
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/template.css">
+                    Ascii Doctor - Template CSS
+                </option>
+                <option value="https://raw.githack.com/darshandsoni/asciidoctor-skins/gh-pages/css/ubuntu.css">
+                    Ascii Doctor - Ubuntu CSS
+                </option>
+                <option value="https://eternityforest.github.io/barrel.css/css/barrel.css">Barrel CSS</option>
+                <option value="https://cdn.jsdelivr.net/npm/beercss@3.10.8/dist/cdn/beer.min.css">Beer CSS</option>
+                <option value="https://unpkg.com/bonsai.css">Bonsai CSS</option>
+                <option value="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">Bootstrap CSS
+                </option>
+                <option value="https://raw.githack.com/caramelcss/caramel/v2/dist/css/caramel.css">Caramel CSS</option>
+                <option value="https://raw.githack.com/cardinalcss/cardinalcss/master/cardinal.min.css">Cardinal CSS
+                </option>
+                <option value="https://raw.githack.com/IonicaBizau/CaiuSS/master/dist/caiuss.min.css">Caiuss CSS
+                </option>
+                <option value="assets/css/others/centurion.min.css">Centurion CSS</option>
+                <option value="https://unpkg.com/chota">Chota CSS</option>
+                <option value="https://unpkg.com/cirrus-ui">Cirrus CSS</option>
+                <option value="https://unpkg.com/comet-css">Comet CSS</option>
+                <option value="https://raw.githack.com/tylerchilds/cutestrap/master/dist/css/cutestrap.css">Cutestrap
+                    CSS</option>
+                <option value="https://raw.githack.com/chr15m/DoodleCSS/master/doodle.css">Doodle CSS</option>
+                <option value="https://raw.githack.com/designmodo/Flat-UI/master/dist/css/flat-ui.min.css">Flat-UI CSS
+                </option>
+                <option value="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css">
+                    Foundation CSS
+                </option>
+                <option value="https://raw.githack.com/johno/furtive/master/css/furtive.min.css">Furtive CSS
+                </option>
+                <option value="https://hackcss.egoist.dev/hack.css">Hack CSS</option>
+                <option value="assets/css/others/hyp.min.css">Hyp CSS</option>
+                <option value="https://raw.githack.com/debashisbarman/Kathamo/master/Kathamo-3.0.0/kathamo.css">Kathamo
+                    CSS</option>
+                <option value="https://cdn.jsdelivr.net/gh/peyman3d/koochak@master/dist/koochak.min.css">Koochak CSS
+                </option>
+                <option value="https://raw.githack.com/cferdinandi/kraken/master/dist/main.css">Kraken CSS</option>
+                <option value="https://raw.githack.com/imperavi/kube/master/dist/css/kube.css">Kube CSS</option>
+                <option value="https://cdn.jsdelivr.net/npm/@ajusa/lit@latest/dist/lit.css">Lit CSS</option>
+                <option value="https://raw.githack.com/goatslacker/lotus.css/gh-pages/dist/lotus.min.css">Lotus CSS
+                </option>
+                <option value="https://cdn.jsdelivr.net/npm/luxacss@latest/dist/compressed/luxa.min.css">Luxa CSS
+                </option>
+                <option value="https://matcha.mizu.sh/matcha.css">Matcha CSS</option>
+                <option value="https://raw.githack.com/Daemonite/material/master/css/material.min.css">Material CSS
+                </option>
+                <option
+                    value="https://cdn.jsdelivr.net/npm/@materializecss/materialize@2.2.2/dist/css/materialize.min.css">
+                    Materialize CSS</option>
+                <option value="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">Miligram CSS
+                </option>
+                <option value="https://unpkg.com/papercss">Paper CSS</option>
+                <option value="https://raw.githack.com/alexanderGugel/papier/master/dist/papier.css">Papier CSS</option>
+                <option value="https://raw.githack.com/getpavilion/pavilion/master/dist/pavilion.css">Pavilion CSS
+                </option>
+                <option value="https://cdn.jsdelivr.net/npm/picnic">Picnic CSS</option>
+                <option value="https://raw.githack.com/cluzier/PrefaceCSS/master/dist/preface.css">Preface CSS</option>
+                <option value="https://unpkg.com/@primer/css@20.8.3/dist/primer.css">Primer CSS</option>
+                <option value="https://raw.githack.com/digicorp/propeller/master/dist/css/propeller.css">Propeller CSS
+                </option>
+                <option
+                    value="https://cdn.jsdelivr.net/combine/npm/purecss@3.0.0/build/base-min.css,npm/purecss@3.0.0/build/grids-min.css,npm/purecss@3.0.0/build/forms-min.css">
+                    Pure CSS</option>
+                <option value="https://unpkg.com/roble/dist/roble.css">Roble CSS
+                </option>
+                <option value="https://unpkg.com/spectre.css">Spectre CSS</option>
                 <option value="https://unpkg.com/@sakun/system.css">System CSS</option>
-                <option value="https://unpkg.com/tailwindcss@1.9.6/dist/tailwind.min.css">Tailwind</option>
-                <option value="https://cdn.jsdelivr.net/npm/uikit@3.23.7/dist/css/uikit.min.css">UIkit</option>
-                <option value="https://unpkg.com/xp.css">Windows XP</option>
-                <option value="https://unpkg.com/xp.css@0.2.3/dist/98.css">Windows 98</option>
-                <option value="https://unpkg.com/7.css">Windows 7</option>
+                <option value="https://raw.githack.com/vasanthv/stylize.css/master/stylize.min.css">Stylize CSS</option>
+                <option value="https://unpkg.com/tailwindcss@1.9.6/dist/tailwind.min.css">Tailwind CSS</option>
+                <option value="https://raw.githack.com/sitetent/tentcss/master/dist/tent.css">Tent CSS</option>
+                <option value="https://unpkg.com/terminal.css">Terminal CSS</option>
+                <option value="https://raw.githack.com/ThaoFramework/Thao/master/css/thao.css">Thao CSS</option>
+                <option value="https://raw.githack.com/vinibiavatti1/TuiCss/master/dist/tuicss.css">Tui CSS</option>
+                <option value="https://cdn.jsdelivr.net/npm/uikit@3.23.7/dist/css/uikit.min.css">UIkit CSS</option>
+                <option value="https://raw.githack.com/doximity/vital/master/dist/css/vital.css">Vital CSS</option>
+                <option value="https://unpkg.com/xp.css">Windows XP CSS</option>
+                <option value="https://unpkg.com/98.css">Windows 98 CSS</option>
+                <option value="https://unpkg.com/7.css">Windows 7 CSS</option>
+                <option value="https://unpkg.com/wingcss">Wing CSS</option>
             </optgroup>
         </select><br><br>
         <label for="css-url">CSS from link:</label>
@@ -496,7 +741,11 @@
     <h2 id="dialog-tag">&lt;dialog&gt; tag</h2>
     <p>This is some text.</p>
     <p>This is some text.</p>
-    <dialog open>This is an open dialog window</dialog>
+    <dialog id="myDialog" open>
+        <p>This is an open dialog window</p>
+        <button onclick="document.getElementById('myDialog').close()">Close</button>
+    </dialog>
+    <button onclick="document.getElementById('myDialog').showModal()">Open Dialog</button>
     <p>This is some text.</p>
     <p>This is some text.</p>
     <hr>
@@ -1267,7 +1516,7 @@
             </tr>
         </tfoot>
     </table>
-    <p><strong>"Phone" Cell that spans two columns:</strong></p>
+    <p><strong>"Phone" cell that spans two columns:</strong></p>
     <table>
         <tr>
             <th>Name</th>
@@ -1282,7 +1531,7 @@
         </tr>
     </table>
 
-    <p><strong>Cell that spans two rows:</strong></p>
+    <p><strong>"Phone" cell that spans two rows:</strong></p>
     <table>
         <tr>
             <th>Name:</th>
