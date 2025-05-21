@@ -1,52 +1,66 @@
-# CSS Test Framework
+# Dynamic HTML Showcase & CSS Test Playground  
 
-A flexible platform for web frontend developers to test and experiment with CSS formatting. This project allows developers to quickly test various CSS styles, upload custom CSS, and switch between different stylesheets.
+Welcome to **Dynamic HTML Showcase & CSS Test Playground** – an interactive project designed to explore, test, and showcase HTML elements and CSS frameworks dynamically. Whether you're a frontend developer, UI designer, or simply a coding enthusiast, this repository provides a hands-on environment for experimenting with essential web components.
 
-## Features
+## 🚀 Features  
 
-- **Custom CSS**: Apply inline custom CSS directly to the page.
-- **Dynamic Styles**: Upload and apply your own CSS files.
-- **Style Selection**: Choose from a list of predefined stylesheets.
-- **Theme Switching**: Support for light and dark themes based on the user's system settings.
-- **CSS Reset**: Reset to default styles for testing.
+- 🌐 **Complete HTML Elements Demo** – Includes all major HTML elements with real usage examples (excluding deprecated tags).  
+- 🎨 **CSS Framework Testing** – Easily switch between stylesheets or apply custom CSS dynamically.  
+- 🔧 **Live CSS Editing** – Modify and apply CSS rules on-the-fly with local storage persistence.  
+- 🛠️ **CSS Reset Implementations** – Compare various CSS reset techniques and understand their impact.  
+- 📝 **Interactive Playground** – Upload, apply, and test external CSS files seamlessly.  
+- 📌 **Web Component Exploration** – Experiment with HTML5 elements and their behavior across different browsers.  
 
-## Setup
+## 📂 Folder Structure  
 
-1. Clone this repository to your local machine:
+ 
+```
+📂 Dynamic-HTML-Showcase-CSS-Test-Playground
+├── 📁 assets │
+      ├── 📁 css
+            ├── reset.css
+            ├── style.css            
+      ├── 📁 js
+            ├── script.js
+      
+├── index.html
+├── README.md
+```
 
-   ```bash
-   git clone https://github.com/fyildiz1974/css-test-bench.git
-   cd css-test-bench
-   
-2. Open the index.html file in your browser to view the application.
+## 🔧 Installation & Usage  
 
-You can open the file by double-clicking on it or by right-clicking and selecting "Open with" your browser.
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/fyildiz1974/Dynamic-HTML-Showcase-CSS-Test-Playground.git
+```
+```
+cd Dynamic-HTML-Showcase-CSS-Test-Playground
+```
+2️⃣ Open in Browser
+Simply open index.html in your browser to explore and interact with the demo.
 
-3. The app will load, and you can start testing different CSS styles and functionalities.
+3️⃣ Customize Styles
+Modify or upload custom CSS files using the built-in CSS selector and uploader.
 
-If you wish to test with different CSS files, use the provided options in the app (CSS selector, upload CSS file, or input custom CSS code).
+4️⃣ Contribute
+Feel free to submit a pull request if you'd like to enhance the project! Contributions are always welcome.
 
-4. For local development, you can edit the files in the assets/css/ and assets/js/ directories to customize or extend the project as needed.
+🤝 Contribution Guidelines
+Fork the repository and create a new branch:
+```
+git checkout -b feature-branch
+```
 
-Contributing
-Feel free to fork this repository and submit pull requests. Please follow these steps when contributing:
+Make your improvements, then commit:
+```
+git commit -m "Added new feature"
+```
+and push:
+```
+git push origin feature-branch
+```
 
-1. Fork the repository to your own GitHub account.
+Submit a Pull Request, and let's make this project better together!
 
-2. Create a new branch (git checkout -b feature/your-feature-name).
-
-3. Make your changes.
-
-4. Commit your changes (git commit -m 'Add new feature or bugfix').
-
-5. Push to your branch (git push origin feature/your-feature-name).
-
-6. Open a pull request in the original repository to merge your changes.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Contact
-Website: fthyldz.com
-
-Twitter: @fyildiz1974
+📜 License
+This project is licensed under the MIT License – feel free to use, modify, and share!
